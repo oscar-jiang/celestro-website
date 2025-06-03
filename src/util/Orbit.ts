@@ -21,7 +21,7 @@ export function calculateOrbitTrail(tleLine1: string, tleLine2: string): Vector3
     const time = new Date(date.getTime() + i * 60 * 1000);
     const positionAndVelocity = satellite.propagate(satrec, time);
 
-    if (positionAndVelocity.position) {
+    if (positionAndVelocity && positionAndVelocity.position) {
       const gst = satellite.gstime(time);
       const positionEci = satellite.eciToEcf(positionAndVelocity.position, gst);
 

@@ -1,9 +1,11 @@
+import React from 'react';
+
 interface GlobeSceneInformationProps {
   visible: boolean;
   onClose: () => void;
 }
 
-export const GlobeSceneInformation = ({visible, onClose}) => {
+export const GlobeSceneInformation: React.FC<GlobeSceneInformationProps> = ({visible, onClose}) => {
   if (!visible) {
     return null;
   }

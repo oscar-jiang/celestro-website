@@ -1,6 +1,4 @@
-import DarkEarthTexture from '../assets/dark-earth.jpg';
 import BlueMarbleTexture from '../assets/blue-marble.jpg';
-import PlainEarthTexture from '../assets/earth-spec.jpg';
 import { useLoader } from '@react-three/fiber';
 import { TextureLoader } from 'three';
 
