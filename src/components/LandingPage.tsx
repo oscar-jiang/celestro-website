@@ -33,7 +33,7 @@ export const LandingPage = () => {
             Start Simulation
           </button>
           <a
-            href="https://github.com/oscar-jiang/celestro"
+            href="https://github.com/oscar-jiang/celestro-website"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-black px-5 py-2 rounded-xl hover:bg-gray-100 transition cursor-pointer text-xs"
